@@ -1,0 +1,53 @@
+body { 
+  padding-top: 70px; 
+}
+
+#main {
+  padding-left:5%;
+}
+
+@media (min-width: @screen-sm-min) {
+  h2 {
+    color:purple;
+  }
+}
+
+@media (min-width: @screen-md-min) {
+  h2 {
+    color:green;
+  }  
+}
+
+@media (min-width: @screen-lg-min) {
+  h2 {
+    color:blue;
+  }  
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight:bold;
+  color:orange !important;
+}
+
+a:hover {
+  background-color:lightyellow !important;
+}
+
+.flex-container {
+  display:flex;
+  background-color: lightgray;
+  justify-content: center; 
+  margin-top:5px;
+}
+
+.flex-item {
+  background-color:lightblue;
+  padding:5px;
+  font-size: 50px;
+}
+
+footer {
+  padding:5%;
+  font-weight: bold;
+}
