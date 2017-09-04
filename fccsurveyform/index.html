@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>BetaFCC Survey Form</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+  <div class = "container-fluid">
+<h1 id="title">Survey Form</h1>
+
+        <p id ="description" class="lead">Please answer a few questions in order to sign up for a library program.</p>
+
+    <form id="survey-form">
+      <div class="row">
+      <label id = "name-label" class="control-label">* Name:</label>
+      <input type ="text" name ="name" id ="name" placeholder ="Enter your name" required>
+      <label id = "email-label" class="control-label">* Email:</label>
+      <input type = "email" name ="email" id = "email" placeholder = "Enter your Email" required>
+        <label id = "number-label">* Age:</label>   
+      
+      <input type = "number" name = "age" id = "number" placeholder = "Age" min = "0" max = "110" required>
+      </div>
+      <div class="row">
+      <label id ="role-label">Which option best describes your current role?</label> 
+      <select name = "role" id ="dropdown">
+        <option value = "parent">Parent</option>
+        <option value ="caregiver">Caregiver</option>
+        <option value ="young person">Young Person</option>
+        <option value = "teacher">Teacher</option>
+        <option value = "other">Other</option>
+      </select>
+      </div>
+      <div class="row">
+      <label id ="radio-label">
+        * Have you attended one of our programs before? </label> <br />
+        <div class="options">
+      <input type = "radio" name = "recommend" value ="definitely" style = "margin: 10px 10px 0px 10px" required>Definitely
+<input type = "radio" name ="recommend" value = "maybe" style = "margin: 10px 10px 0px 10px" required>Maybe
+        <input type = "radio" name = "recommend" value ="not sure" style = "margin: 10px 10px 0px 10px" required>Not sure</div>
+      </div>
+      <div class="row">
+<label id = "checkbox-label"> 
+  What type of programs are you interested in?
+(Check all that apply):</label><br />
+<input type = "checkbox" name = "improved" value = "storytime" style = "margin: 10px 10px 0px 10px">Storytime
+<input type = "checkbox" name = "improved" value = "beginning-reader" style = "margin: 10px 10px 0px 10px">Beginning Reader
+<input type = "checkbox" name = "improved" value = "art" style = "margin: 10px 10px 0px 10px">Art
+<input type = "checkbox" name = "improved" value = "music" style = "margin: 10px 10px 0px 10px">Music
+<input type = "checkbox" name = "improved" value = "book club" style = "margin: 10px 10px 0px 10px">Book Club
+<input type = "checkbox" name = "improved" value = "gaming" style = "margin: 10px 10px 0px 10px">Gaming
+<input type = "checkbox" name = "improved" value = "coding" style = "margin: 10px 10px 0px 10px">Coding
+<input type = "checkbox" name = "improved" value = "community service" style = "margin: 10px 10px 0px 10px">Community Service
+<input type = "checkbox" name = "improved" value = "college prep" style = "margin: 10px 10px 0px 10px">
+ College prep
+      </div>
+      <div class="row">
+      <label id ="comments">Any Comments or Suggestions?   </label><br />
+        <textarea placeholder ="Enter your comment here..."></textarea></div>
+      <div class="row">
+ <input type ="submit" id ="submit" value ="Submit" class="btn btn-primary">
+      </div>
+    </form>
+                            </div>
+                            </body>
+  <script src='https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

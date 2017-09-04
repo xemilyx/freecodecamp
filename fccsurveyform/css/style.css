@@ -1,0 +1,21 @@
+#title {
+  color:purple;
+}
+
+#description {
+  background-color:lightblue;
+  padding: 1em;
+  font-family: tahoma;
+}
+
+#survey-form {
+  background-color:white;
+  padding:1em;
+  font-family: tahoma;
+}
+.row {
+  padding:1em;
+}
+.options {
+
+}

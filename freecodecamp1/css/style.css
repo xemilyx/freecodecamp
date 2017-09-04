@@ -1,0 +1,15 @@
+.gray-frame { 
+  background-color: lightgray;
+  padding:30px;
+  margin:30px;
+}
+#yellow-post-it {
+  background-color: lightyellow;
+  padding:30px; 
+  margin:30px;
+  font-family:tahoma;
+}
+
+.indented {
+  padding-left:40px;
+}
